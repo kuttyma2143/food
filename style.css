@@ -1,0 +1,41 @@
+body{
+  
+  
+    /* The image used */
+    background-image: url("food.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+
+.text-white{
+    background-image: linear-gradient(to left,rgb(64, 6, 6),rgb(176, 203, 25));
+}
+.btn{
+    background-image: linear-gradient(to left,rgb(237, 234, 234),rgb(59, 5, 5));  
+}
+.card{
+    background-image: linear-gradient(to left,rgb(138, 162, 17),rgb(204, 204, 207)); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  
